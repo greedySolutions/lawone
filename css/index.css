@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Roboto&display=swap');
+
+.elements, .back_cover{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.elementor-headline {
+    font-size: 43px;
+    line-height: 1.2;
+    display: block;
+}
+
+/* nav start */
+#header{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: -90px;
+    padding: 0px 0px 0px 0px;
+    z-index: 2;
+    position: relative;
+}
+#header .back_cover{
+    background-image: url("file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/icolaw06.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.bg-light {
+    background-color: #13120B57 !important;
+}
+.logo {
+    width: 230px;
+    height: 45px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #D9AD74;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #D9AD74;
+}
+.nav-link {
+    padding: 13px 20px !important;
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.nav-link {
+    padding: 13px 20px !important;
+    text-transform: uppercase;
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    text-align: left;
+}
+.dropdown-menu{
+    background-color: #000;
+    padding: 0;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    padding: 13px 20px !important;
+    text-transform: uppercase;
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    text-align: left;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #D9AD74;
+}
+/* nav end */
+
+/* slider start */
+#slider{
+    width: 100%;
+    height: 105vh;
+    background-color: #0C0B07;
+    background-image: url(file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/lawhome01.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+#slider .back_cover{
+    background-color: #0C0B07;
+    background-image: url("file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/icolaw02.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.62;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+}
+.details1{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
+.jsKtp{
+    color: #D9AD74;
+    font-family: "Crimson Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 250px;
+}
+.osJtw{
+    color:#fff;
+    font-family: "Crimson Pro", Sans-serif;
+    font-size: 71px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.dsKit{
+    color: #EAE9E9;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.mlKte{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    fill: #13120B;
+    color: #13120B;
+    background-color: #D9AD74;
+    padding: 17px 20px 17px 20px;   
+    text-decoration: none;
+}
+.mlKte:hover{
+    color: #13120B;
+    background-color: #FDD472;
+    transform: scale(0.9);
+}
+.lawmanimg{
+    padding: 10px;
+    margin: 100px 0 0 0;
+}
+.lawmanimg img{
+    width: 450px;
+    height: 700px;
+}
+
+/* slider end */
+
+/* EEH start */
+#EEH{
+    margin-top: -80px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+#EEH .back_cover{
+    background-image: url("file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/icolaw06.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.srPia{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #31291E 0%, #13120B 100%);
+    box-shadow: -6px 4px 35px 0px rgba(0, 0, 0, 0.28);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+.mnGei{
+    padding: 20px 20px 20px 20px;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    text-align: left;
+}
+.jkDie{
+    display: inline-block;
+}
+.jkDie img{
+    width: 75px;
+}
+.clIuw{
+    margin-bottom: 4px;
+    color: #EAE9E9;
+    font-family: "Crimson Pro", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    margin-top: .5rem;
+}
+.hsMno{
+    text-align: left;
+    color: #AAAAAA;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+.srPia:hover{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #13120B 0%, #472800 100%);
+    box-shadow: -6px 4px 35px 0px rgba(0, 0, 0, 0.28);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+}
+.col-md-4.iuSlk {
+    margin-left: 15px;
+}
+
+.col-md-4.avUys {
+    margin-left: -28px;
+}
+
+.col-md-4.jeWqm {
+    margin-left: -30px;
+}
+/* EEH end */
+
+/* about us start */
+#about-us{
+    background-image: url("file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/lawhome05.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -81px;
+    margin-bottom: 0px;
+    padding: 200px 0px 0px 0px;
+    position: relative;
+}
+#about-us .back_cover{
+    background-color: #FDFDFD;
+    background-image: url("file:///Users/fazlulhoque/Desktop/Fiverr/tafhim/lawone/images/icolaw06.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+/* about us end */
