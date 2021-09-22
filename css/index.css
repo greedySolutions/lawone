@@ -757,6 +757,15 @@ button.btn.btn-primary:hover{
     padding: 100px 0px 100px 0px;
     position: relative;
 }
+#service .back_cover{
+    background-color: #0C0B07;
+    background-image: url("../images/icolaw06.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
 .midTi {
     margin-bottom: 100px;
 }
@@ -802,3 +811,113 @@ button.btn.btn-primary:hover{
     border-radius: 5px 5px 5px 5px;
 }
 /* service end */
+
+/* testimonial start */
+#testimonial{
+    background-color: #0C0B07;
+    background-image: url("../images/lawhome010.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 503px;
+}
+#testimonial .back_cover{
+    background-color: #0C0B07;
+    background-image: url("../images/icolaw06.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.skOpi{padding: 10px;}
+.skLyt{
+    --divider-border-style: solid;
+    --divider-color: #D9AD7430;
+    --divider-border-width: 2.6px;
+    margin-bottom: 20px;
+}
+.borTop{
+    border-top: 1px solid;
+    border-color: #D9AD7430;
+    border-width: 2.6px;
+    width: 80%;
+    margin-left: 120px;
+}
+.borbot{
+    border-bottom: 1px solid;
+    border-color: #D9AD7430;
+    border-width: 2.6px;
+    width: 80%;
+    margin-left: 120px;
+}
+.h-con{
+    margin: 100px 0px 0px 37px;
+}
+.h-con h4{
+    color: #D9AD74;
+}
+div#carouselExampleCaptions {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.carousel-inner {
+    position: relative;
+    width: 508px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../images/icolaw027.webp);
+    background-position: 430px 174px;
+    background-repeat: no-repeat;
+    background-size: 12% auto;
+    background-color: #69696924;
+    border-radius: 5px;
+    padding: 30px 40px 30px 40px;
+}
+.carousel-inner {
+    position: relative;
+    width: 508px;
+    margin-right: 10px;
+}
+.askLo {
+    margin-bottom: 20px;
+}
+.askLo img{
+    width: 70px;
+    height: 70px;
+}
+.detls{
+    color: #AAAAAA;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.teName{
+    color: #D9AD74;
+    font-family: "Crimson Pro", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.teDes{
+    color: #AAAAAA;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+.man img{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-top: 50px
+}
+/* testimonial end */
